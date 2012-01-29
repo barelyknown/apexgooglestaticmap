@@ -11,4 +11,4 @@ String afcEastMapUrl = new GoogleStaticMap().addMarkers(afcEastCities).url;
 <apex:image value="{!afcEastMapUrl}" />
 ```
 
-[simpleExampleMap]: (http://maps.google.com/maps/api/staticmap?sensor=false&size=500x350&markers=Boston%2C+MA&markers=New+York%2C+NY&markers=Buffalo%2C+NY&markers=Miami%2CFL&)
+![simpleExampleMap]: (http://maps.google.com/maps/api/staticmap?sensor=false&size=500x350&markers=Boston%2C+MA&markers=New+York%2C+NY&markers=Buffalo%2C+NY&markers=Miami%2CFL&)
