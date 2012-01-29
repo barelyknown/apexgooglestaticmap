@@ -1,7 +1,5 @@
 public virtual class GoogleStaticMap {
   
-  // it takes a few seconds...
-  
   // DEFAULT PROPERTY VALUES
   public static final Integer DEF_WIDTH = 500;
   public static final Integer DEF_HEIGHT = 350;
