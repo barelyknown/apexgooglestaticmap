@@ -55,9 +55,11 @@ public virtual class GoogleStaticMap {
   }
   
   public GoogleStaticMap(String address) {
-    MapLocation location = new MapLocation(address);
-    MapMarker marker = new MapMarker (location);
-    this.markers.add(marker);
+    addMarker(address);
+  }
+  
+  public GoogleStaticMap(String[] addresses) {
+    addMarkers(addresses);
   }
   
   public static Boolean isValidColor(String color) {
