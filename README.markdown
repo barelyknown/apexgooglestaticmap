@@ -35,7 +35,7 @@ Paths can also be drawn, with our without markers and with custom formatting.
 
 ```
 String[] homes = new String[]{'Albany, NY','Wellesley, MA','New York, NY','Pittsburgh, PA','01945','Ann Arbor, MI','Chicago, IL'};
-GoogleStaticMap.MapPath moves = new GoogleStaticMap.MapPath(homes);
+GoogleStaticMap.MapPath moves = new GoogleStaticMap.MapPath(homes).color('0x000000ff');
 String movesUrl = new GoogleStaticMap().addPath(moves).url;
 <apex:image value="{!movesUrl}">
 ```
